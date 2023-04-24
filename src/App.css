@@ -1,0 +1,60 @@
+.card{
+  width: 300px;
+  height: 350px;
+  padding:30px;
+  box-shadow: 0 0 10px black;
+  margin: 100px auto;
+}
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+img{
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+  
+}
+.des{
+  text-align: center;
+}
+.follwer{
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  text-align: center;
+  font-weight: bold;
+  
+}
+.a{
+  color:blueviolet;
+  font-weight: bold;
+}
+.btn{
+  margin-top:30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+button{
+  width:100px;
+  height: 35px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+.btn1{
+  background-color: blueviolet;
+  color:white;
+  
+}
+.btn2{
+  background-color:palevioletred;
+  color:white
+}
